@@ -27,7 +27,7 @@ Column index | Column description | Column type
 
 The integrative model will predict enhancer-gene links based on: (1) activity correlation between enhancers and genes across 127 cell lines/tissues; (2) distance between enhancers and genes; (3) TF motif hits within enhancer regions. Detailed description of all the input data are provided below:
 
-1. *Define consensus enhancer coordinates across 127 cell lines/tissues
+1. *Define consensus enhancer coordinates across 127 cell lines/tissues*
 
    The consensus enhacer coordinates were downloaded from the website https://personal.broadinstitute.org/meuleman/reg2map/HoneyBadger2-intersect_release/, with the version of DNaseI regions selected with -log10(p) >= 10. These regions are delineated using observed DNaseI data across 53 epigenomes and annotated with both the 5-mark 15 states model based on observed data as well as the 12 mark 25-state model based on imputed data, across 127 epigenomes. Totally it marks 474,004 putative consensus enhancer regions across 127 cell types.
 
