@@ -1,7 +1,6 @@
-# Integrative_model
-## Introduction
+# Introduction
 This repository contains predicted enhancer-gene links in each of 127 cell lines/tissues by integrative modelling combinatorial gene regulatory grammer. 
-## Files and folders
+# Files and folders
 `ENCODE_cell_index.csv`: metadata of cell lines.
 
 `Prediction`: predicted enhancer-gene links for each of 127 cell lines/tissues. 
@@ -24,7 +23,7 @@ Column index | Column description | Column type
 9 | correlation | float
 10 | Probability of linking | float
 
-## Input data description:
+# Input data description:
 
 The integrative model will predict enhancer-gene links based on: (1) activity correlation between enhancers and genes across 127 cell lines/tissues; (2) distance between enhancers and genes; (3) TF motif hits within enhancer regions. Detailed description of all the input data are provided below:
 
