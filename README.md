@@ -1,7 +1,7 @@
 # Introduction
 This repository contains predicted enhancer-gene links in each of 127 cell lines/tissues by integrative modelling combinatorial gene regulatory grammer. 
 # Files and folders
-`ENCODE_cell_index.csv`: metadata of cell lines.
+`ENCODE_cell_index.csv`: metadata of cell lines, including ID, ENCODE sample name, epigenome mnemonic, standardized epigenome name and tissue.
 
 `Prediction`: predicted enhancer-gene links for each of 127 cell lines/tissues. 
 
